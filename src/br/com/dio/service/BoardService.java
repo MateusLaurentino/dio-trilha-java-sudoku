@@ -1,7 +1,7 @@
 package br.com.dio.service;
 
 import br.com.dio.model.Board;
-import br.com.dio.model.GameStatusEnum;
+import br.com.dio.enums.EGameStatus;
 import br.com.dio.model.Space;
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class BoardService {
         return board.hasErrors();
     }
 
-    public GameStatusEnum getStatus(){
+    public EGameStatus getStatus(){
         return board.getStatus();
     }
 

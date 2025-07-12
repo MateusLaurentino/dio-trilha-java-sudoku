@@ -1,6 +1,6 @@
-package br.com.dio.model;
+package br.com.dio.enums;
 
-public enum GameStatusEnum {
+public enum EGameStatus {
 
     NON_STARTED("O jogo não foi iniciado"),
     INCOMPLETE("O jogo está incompleto"),
@@ -8,7 +8,7 @@ public enum GameStatusEnum {
 
     private final String label;
 
-    GameStatusEnum(final String label){
+    EGameStatus(final String label){
         this.label = label;
     }
 
